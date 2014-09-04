@@ -8,10 +8,6 @@ myapp <- oauth_app("github", "91a0ba40f2332c29f507", "be9d13322bc52c3d67b2f2e33f
 myapp
 github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
 j
-j
-j
-j
-github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
 github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
 gtoken <- config(token = github_token)
 rep <- GET("https://api.github.com/users/jtleek/repos", gtoken)
@@ -27,7 +23,6 @@ require(jsonlite)
 content(req)
 req
 gtoken
-github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
 github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
 gtoken <- config(token = github_token)
 req <- GET("https://api.github.com/rate_limit", gtoken)
