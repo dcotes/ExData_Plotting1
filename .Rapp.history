@@ -1,0 +1,34 @@
+library(httr)
+?get
+GET /authorizations
+oauth_endpoints("github")
+?oauth_app
+myapp <- oauth_app("github", "91a0ba40f2332c29f507", "be9d13322bc52c3d67b2f2e33faf5e4b93bcf1e8#
+")
+myapp
+github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
+j
+j
+j
+j
+github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
+github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
+gtoken <- config(token = github_token)
+rep <- GET("https://api.github.com/users/jtleek/repos", gtoken)
+req <- GET("https://api.github.com/users/jtleek/repos", gtoken)
+stop_for_status(req)
+GET("https://api.github.com/users/jtleek/repos")
+GET(myap)
+GET(myapp)
+GET("https://github.com/settings/applications/117556")
+content(req)
+library(jsonlite)
+require(jsonlite)
+content(req)
+req
+gtoken
+github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
+github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
+gtoken <- config(token = github_token)
+req <- GET("https://api.github.com/rate_limit", gtoken)
+req
